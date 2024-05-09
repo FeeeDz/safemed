@@ -22,30 +22,12 @@ export default function TopNavBar() {
 								height={20}
 								alt={""}
 							/>
-
-							<span className="text-black font-bold">
+							<span className="text-black text-xl font-bold">
 								Safe<span className="text-red-500 font-bold">Med</span>
 							</span>
 						</div>
 					</Link>
 
-					<nav className="hidden md:flex gap-4">
-						<Link
-							className="font-medium flex items-center text-sm transition-colors hover:underline"
-							href="#">
-							Companies
-						</Link>
-						<Link
-							className="font-medium flex items-center text-sm transition-colors hover:underline"
-							href="#">
-							Workers
-						</Link>
-						<Link
-							className="font-medium flex items-center text-sm transition-colors hover:underline"
-							href="/contact">
-							Contact
-						</Link>
-					</nav>
 					<div className="flex items-center gap-4">
 						<Button
 							asChild
